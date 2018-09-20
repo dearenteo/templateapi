@@ -226,4 +226,4 @@ def handle_message(event):
     return 'OK2'
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=80)
